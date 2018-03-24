@@ -2,6 +2,7 @@
 include("../includes/connection.php");
 include("../includes/header.php"); 
 include("alert_messages.php");
+echo date("Y-m-d");
 $query=mysql_query("select * from admin",$con);
 ?>
 	<!-- Begining of Content -->
