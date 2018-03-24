@@ -60,6 +60,7 @@ $query=mysql_query("select * from admin",$con);
 		</div>
 		<!-- End of Content -->
 		<h1>hi dear</h1>
+		<h2>I am fine</h2>
 <?php 
 var_dump("Give your test");
 
