@@ -59,4 +59,8 @@ $query=mysql_query("select * from admin",$con);
 		</div>
 		</div>
 		<!-- End of Content -->
-<?php include_once("../includes/footer.php"); ?>	
+		<h1>hi dear</h1>
+<?php 
+var_dump("Give your test");
+
+include_once("../includes/footer.php"); ?>	
