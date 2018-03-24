@@ -59,7 +59,7 @@ $query=mysql_query("select * from admin",$con);
 		</div>
 		</div>
 		<!-- End of Content -->
-		<h1>hi dear</h1>
+		<h1>hi dear Hamid</h1>
 		<h2>I am fine</h2>
 <?php 
 var_dump("Give your test");
