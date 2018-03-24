@@ -59,4 +59,5 @@ $query=mysql_query("select * from admin",$con);
 		</div>
 		</div>
 		<!-- End of Content -->
+		<h2>I am fine</h2>
 <?php include_once("../includes/footer.php"); ?>	
