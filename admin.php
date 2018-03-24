@@ -6,6 +6,7 @@ echo date("Y-m-d");
 $query=mysql_query("select * from admin",$con);
 ?>
 	<!-- Begining of Content -->
+	<p>Hello man </p>
 		<div class="content">
 			<div class='span11 messages'>
 			<?php alert_messages();?>

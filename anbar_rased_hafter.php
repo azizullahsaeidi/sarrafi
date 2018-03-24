@@ -17,7 +17,7 @@ $query=mysql_query("select anbar_name,i_name,item_name,de_id,de_serial_no,de_qua
 		<div class="content">
 		<div class='span11 search_area'>
 		<?php alert_messages();?>
-		
+		<h1>this header 1</h1>
 			<form action="../controller/anbar_query.php" method="post">
 				<span id="anbar_search_label">جستجو بر اساس: </span>
 				<label for="pro_price_opt" id='pro_price_opt_label'>قیمت کالا:</label><input type='radio' id='pro_price_opt' name='search'>
