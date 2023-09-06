@@ -2,3 +2,8 @@ import RolesPermissionsToVue from "../../vendor/geowrgetudor/laravel-spatie-perm
 import './bootstrap';
 
 app.use(RolesPermissionsToVue);
+import { createApp } from "vue";
+import App from './src/App.vue'
+
+const app = createApp(App)
+app.mount('#app')
